@@ -25,13 +25,13 @@ public class ED02_Ej08 {
         System.out.println("Introduce tu edad: ");
         int edad = entrada.nextInt();
 
-        if (edad >=18 && sexo=='H'){
+        if (edad >=18 || sexo=='H'){
             System.out.println("Eres hombre y mayor de edad");
         }
-            else if (edad >=18 && sexo=='M'){
+            else if (edad >=18 || sexo=='M'){
                 System.out.println("Eres mujer y mayor de edad");
             }
-                else if (edad <18 && sexo=='M'){
+                else if (edad <18 || sexo=='M'){
                     System.out.println("Eres mujer y menor de edad");
                 }
         else {
