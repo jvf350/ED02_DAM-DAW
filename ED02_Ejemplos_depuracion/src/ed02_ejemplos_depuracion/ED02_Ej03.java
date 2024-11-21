@@ -26,11 +26,11 @@ public class ED02_Ej03 {
         array[1] = "Entornos de Desarrollo";
         
         if (array.length < 1) {
-            System.out.println("Indicar por favor nombre de fichero");
+            System.out.println("El array está vacío");
          return;
         } else {
-            String nomFich = array[2];
-            System.out.println("La cadena almacenada en la posicion indicada es: " +nomFich);
+            String cadena = array[2];
+            System.out.println("La cadena almacenada en la posicion indicada es: " +cadena);
         }
     } 
     
