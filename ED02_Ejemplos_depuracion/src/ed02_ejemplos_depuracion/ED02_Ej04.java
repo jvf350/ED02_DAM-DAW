@@ -10,8 +10,7 @@ public class ED02_Ej04 {
     
     public static void main(String[] args) {
         
-        long iLerasd345 = 2;
-        int fgw = 0;
+        int iLerasd345 = 2, fgw = 0;
         
         do{
             iLerasd345 *= 2; //iLerasd345=iLerasd345*2
