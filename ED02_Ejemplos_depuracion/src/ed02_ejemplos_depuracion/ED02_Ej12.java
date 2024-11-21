@@ -11,9 +11,11 @@ import javax.swing.JOptionPane;
  */
 public class ED02_Ej12 {
 
+    private static ED02_Ej12 ejemplo;
+
     public static void main(String[] args) {
 
-        ED02_Ej12 ejemplo = new ED02_Ej12();
+        ejemplo = new ED02_Ej12();
         ejemplo.whatsYourName();
     }
 
@@ -25,7 +27,6 @@ public class ED02_Ej12 {
         String name = "";
         boolean op = false;
         do {
-            ED02_Ej12 ejemplo = new ED02_Ej12();
             name = ejemplo.inputName();
             String timeStamp = new SimpleDateFormat("MM.dd.MM.yyyy - HH.mm.ss").format(new Date());
             if (name.equals("")) {
